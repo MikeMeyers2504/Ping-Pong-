@@ -1,0 +1,59 @@
+#mijnCanvas {
+  border: 5px solid red;
+  margin: 50px auto 50px auto;
+  display: block;
+}
+
+body {
+	background-image: url(Houses.jpg);
+	background-attachment: fixed;
+}
+
+#hoofding {
+	width: 500px;
+	margin-left: 800px;
+	margin-top: 10px;
+}
+
+.score1 {
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+	font-size: 200%;
+}
+
+.score2 {
+	margin-top: 20px;
+	font-size: 200%;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h1, .score1, .score2{
+	color: orange;
+}
+
+button {
+	margin-right: 15px;
+	color: red;
+	background-color: transparent;
+	border: 1px solid yellow;
+}
+
+.first {
+	margin-left: 560px;
+}
+
+.hide {
+	display: none;
+}
+
+.Kader {
+	width: 700px;
+	margin-left: 615px;
+	margin-top: 10px;
+	color: lightgreen;
+	font-size: 125%;
+}

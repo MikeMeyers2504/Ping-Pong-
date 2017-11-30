@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Pongpong</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="pongpong.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="hoofding">
+		<header>
+			<h1>Play the amazing pong game!!!</h1>
+		</header>
+    	<div class="score1">0</div>
+    	<div class="score2">0</div>
+		</div>
+    	<div class="Hoofdkader">
+    		<canvas id="mijnCanvas" width="700" height="300"></canvas>
+    		<audio id="main_music" loop>
+  				<source src="ping pong music.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="playerHit">
+  				<source src="beep5.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="PCHit">
+  				<source src="beep6.mp3" type="audio/mpeg">
+			</audio>
+    	</div>
+    	<button class="first">Change to background 1</button>
+    	<button class="second">Change to background 2</button>
+    	<button class="third">Change to background 3</button>
+    	<button id="StartStop">Start</button>
+    	<button id="Show">Introduction</button>
+    	<button id="Hide">Hide introduction</button>
+    	<div class="Kader">
+    	<p class="hide">Dit pong spel is een standaard pong met enkele uitbreidingen. Met standaard bedoel ik dan gewoon de canvas waarbinnen het spel zich bevind, de 2 paddle's (1 gestuurd door de speler en 1 door de computer) en het balletje. Dan heb ik ervoor gezorgd dat er muziek op de achtergrond speelt die telkens herhaald word en ook telkens een geluidje wanneer de bal de paddle's raakt, wel 2 verschillende geluiden. Ik heb ook nog een startknop (ook pauzeknop) voorzien. Er zijn ook nog 3 buttons onderaan die wanneer je erop drukt er telkens een nieuwe achtergrond komt, dus je kan kiezen tussen 3 achtergronden. Ik heb de canvas ook transparant gemaakt zodat je de achtergrond erdoor kunt zien. Wanneer de computer of de speler hun score tot 10 komt, komt er iets nieuws. Hiervan maak ik gebruik van 2 ballen in plaats van 1. Wanneer de score van de computer of speler dan tot 25 komt, komt er nog iets nieuws in. Dit is namelijk een object die eigenlijk als hinderlaag dient. Uiteindelijk heb ik er nog 2 knoppen bij gezet die de inleiding laten zien of terug verbergen.</p>
+    	</div>
+		<script src="jquery-2.1.3.min.js"></script>
+		<script src="pongpong.js"></script>
+	</body>
+</html>
+
